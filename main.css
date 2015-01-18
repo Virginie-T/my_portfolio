@@ -72,12 +72,29 @@ body {
     background-image: url(img/back-bois2.png)
 }
 
+.jumbotron h2 {
+	float: center;
+	text-align: center;
+    font-family: "kandinsky";
+	color: #FFFFFF;
+	font-size: 45px;
+	text-shadow: 1px 1px white, -1px -1px #000;
+	margin: 160px 0 0 0;
+	margin-left: -110px;
+}
+
+.jumbotron .s {
+	font-family: 'Poiret One', cursive;
+	color: #FFFFFF;
+
+}
+
 .jumbotron h1 {
 	font-family: 'Poiret One', cursive;
 	color: #FFFFFF;
 	font-size: 65px;
 	text-align: center;
-	margin-top: 230px;
+	margin-top: 15px;
 	text-shadow: 1px 1px white, -1px -1px #444;
 }
 
@@ -96,6 +113,7 @@ body {
 	text-align: center;
 	margin-top: 15px;
 	text-shadow: 1px 1px white, -1px -1px #444;
+	margin-left: 130px;
 }
 
 
@@ -388,12 +406,11 @@ background-color: rgba(0, 255, 255, .5)
 	color: #FFFFFF;
 	padding: 20px;
 	display: inline-block;
-	margin-left: 13%;
+	margin-left: 16%;
     margin-right: 13%;
     margin-top: 150px;
 	margin-bottom: 320px;
 	padding: 35px;
-	
 
 }
 
@@ -407,13 +424,14 @@ border-bottom-style: dotted;
 border-bottom-color: #00FFFF;
 padding: 0 0px 20px 0px;
 margin: 0;
+margin-bottom: 10px;
 
 }
 
 .about-me p {
 	text-align: justify;
-	padding: 20px 0 0 0;
-
+	padding: 20px 0 -5px 0;
+	text-align: center;
 }
 
 
@@ -540,10 +558,11 @@ width: 75%;}
 
 
 
-
-
-
-
+.contact_mail {
+	margin-top: 20px;
+	margin-left: -90px;
+		font-weight: bold;
+}
 
 
 
